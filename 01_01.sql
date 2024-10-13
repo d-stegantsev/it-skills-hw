@@ -1,0 +1,9 @@
+--SET SERVEROUTPUT ON;
+
+BEGIN
+
+    --DBMS_OUTPUT.PUT_LINE('Hello');
+    DBMS_OUTPUT.PUT_LINE(SYSDATE || ' Hello');
+
+END;
+/
